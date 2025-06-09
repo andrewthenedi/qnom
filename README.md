@@ -1,157 +1,149 @@
-# QNom - Your AI-Powered Hawker Food Companion
+# QNom - Singapore's Zero-Cost F&B Discovery Platform
 
-> Discover Singapore's best hawker food through intelligent recommendations, real-time updates, and community insights.
+<p align="center">
+  <em>Queue none, nom more. Your lunch hour, returned.</em>
+</p>
 
-## About QNom
+## 🚀 Overview
 
-QNom transforms how locals and tourists discover authentic hawker food in Singapore. Using AI-powered recommendations and real-time data, we help food lovers find their perfect meal while supporting our beloved hawker community.
+QNom is Singapore's first real-time queue tracking platform that helps diners save 30+ minutes daily by providing live wait times for hawker centers, food courts, and restaurants. Built with a revolutionary zero-cost infrastructure model, QNom operates without commission fees while delivering sub-50ms response times.
 
-### Key Features
+## 🎯 Key Features
 
-- **AI-Powered Discovery**: Get personalized hawker stall recommendations based on your preferences
-- **Real-Time Updates**: Live queue times, stall availability, and special menu items
-- **Community Reviews**: Authentic ratings and reviews from real food lovers
-- **Dietary Filters**: Easy search for halal, vegetarian, and allergy-friendly options
-- **Multi-Language Support**: Available in English, Chinese, Malay, and Tamil
-- **Social Features**: Share discoveries, create food lists, and connect with other foodies
+- **Real-Time Queue Tracking**: Live wait times updated by the community
+- **Smart Recommendations**: AI-powered suggestions based on your preferences
+- **Zero Commission**: Free for all hawkers and restaurants forever
+- **Offline-First PWA**: Works even in basements and MRT stations
+- **Multi-Language**: English, Mandarin, Malay, and Tamil support
 
-## Quick Start
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Backend**: Cloudflare Workers (Edge Computing)
+- **Database**: Supabase (PostgreSQL)
+- **Real-time**: WebSockets via Cloudflare
+- **Analytics**: Cloudflare Analytics
+- **Maps**: Mapbox GL JS
+
+## 🚦 Getting Started
 
 ### Prerequisites
 
-- Node.js 20+ LTS
-- pnpm (recommended) or npm
+- Node.js 18.17 or later
+- npm or yarn
 - Git
 
 ### Installation
 
+1. Clone the repository:
 ```bash
-# Clone the repository
-git clone https://github.com/qnom/qnom.git
+git clone https://github.com/yourusername/qnom.git
 cd qnom
-
-# Install dependencies
-pnpm install
-
-# Set up environment variables
-cp .env.example .env.local
-# Edit .env.local with your configuration
-
-# Run development server
-pnpm dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to see the application.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Documentation
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
 
-Comprehensive documentation is available in the `/docs` directory:
+4. Run the development server:
+```bash
+npm run dev
+```
 
-- [Executive Summary](docs/EXECUTIVE_SUMMARY.md) - Project overview and vision
-- [Technical Stack](docs/development/TECH_STACK.md) - Architecture and technology choices
-- [API Documentation](docs/development/API.md) - Backend service details
-- [Contributing Guide](docs/CONTRIBUTING.md) - How to contribute
-- [Community Guidelines](docs/operations/COMMUNITY.md) - Community programs and engagement
+Open [http://localhost:3000](http://localhost:3000) to see the application.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 qnom/
-├── app/                    # Next.js 14 app directory
-├── components/            # Reusable React components
-├── lib/                   # Utility functions and configurations
+├── app/                    # Next.js app directory
+├── components/            # React components
+├── lib/                   # Utility functions
 ├── public/               # Static assets
-├── workers/              # Cloudflare Workers code
-├── supabase/            # Database migrations and functions
-├── docs/                # Project documentation
-└── tests/               # Test files
+├── docs/                 # Documentation
+│   ├── architecture/     # Technical design
+│   ├── business/         # Business model
+│   ├── development/      # Dev guidelines
+│   └── operations/       # Ops procedures
+├── tests/                # Test files
+└── workers/              # Cloudflare Workers
 ```
 
-## Contributing
+## 🧪 Testing
 
-We welcome contributions from the community! Please see our [Contributing Guide](docs/CONTRIBUTING.md) for details on:
+Run the test suite:
+```bash
+npm test
+```
 
-- Code of Conduct
-- Development setup
-- Submitting pull requests
-- Coding standards
-- Testing requirements
+Run tests in watch mode:
+```bash
+npm run test:watch
+```
 
-### Quick Contribution Steps
+## 🚀 Deployment
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+QNom uses Cloudflare Pages for hosting:
 
-## Community
+```bash
+npm run build
+npx wrangler pages publish out
+```
 
-Join our growing community of food lovers and contributors:
+## 📊 Project Status
 
-- **Discord**: [Join our server](https://discord.gg/qnom) for discussions
-- **GitHub Discussions**: Share ideas and feedback
-- **Telegram**: [@qnom_sg](https://t.me/qnom_sg) for announcements
+- **Current Phase**: MVP Development
+- **Target Launch**: March 2024
+- **Progress**: See [PROGRESS.md](./PROGRESS.md)
 
-### Community Programs
+## 🤝 Contributing
 
-- **Hawker Ambassador Program**: Help hawkers go digital
-- **University Partnerships**: Collaborate with students
-- **Contributor Recognition**: Rewards for active contributors
+We welcome contributions! Please see our [Contributing Guidelines](./docs/development/CONTRIBUTING.md).
 
-Learn more in our [Community Guide](docs/operations/COMMUNITY.md).
+## 📖 Documentation
 
-## Technology Stack
+- [Project Overview](./docs/PROJECT_OVERVIEW.md)
+- [Technical Architecture](./docs/architecture/TECHNICAL_ARCHITECTURE.md)
+- [Business Model](./docs/business/BUSINESS_MODEL.md)
+- [Development Setup](./docs/development/SETUP.md)
 
-QNom is built with modern, scalable technologies:
+## 🎯 Roadmap
 
-- **Frontend**: Next.js 14, Tailwind CSS, shadcn/ui
-- **Backend**: Cloudflare Workers, Supabase
-- **Infrastructure**: Vercel, Cloudflare CDN
-- **Monitoring**: Sentry, PostHog
+### Phase 1: MVP (Q1 2024)
+- [x] Technical architecture design
+- [x] Business model validation
+- [ ] Core queue tracking system
+- [ ] Basic mobile interface
+- [ ] 10 pilot partners
 
-All running on free tiers to maintain sustainability. See [Tech Stack](docs/development/TECH_STACK.md) for details.
+### Phase 2: Growth (Q2 2024)
+- [ ] 100 partner restaurants
+- [ ] 10,000 active users
+- [ ] Premium features
+- [ ] B2B analytics
 
-## Roadmap
+### Phase 3: Scale (Q3-Q4 2024)
+- [ ] 1,000 partners
+- [ ] 50,000 users
+- [ ] Regional expansion
+- [ ] Series A funding
 
-### Phase 1: Foundation (Current)
-- ✅ Core platform development
-- ✅ Basic AI recommendations
-- 🔄 Community building
-- 🔄 Initial hawker onboarding
-
-### Phase 2: Growth
-- Advanced AI features
-- Mobile applications
-- Hawker analytics dashboard
-- Regional expansion
-
-### Phase 3: Scale
-- Multi-country support
-- Enterprise features
-- API marketplace
-- Advanced social features
-
-## Support
-
-- **Documentation**: Check `/docs` directory
-- **Issues**: [GitHub Issues](https://github.com/qnom/qnom/issues)
-- **Email**: support@qnom.sg
-- **Discord**: Real-time help in #support channel
-
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- Singapore's amazing hawker community
-- Our contributors and volunteers
-- Partner organizations and sponsors
-- University partners and students
+- Singapore's hawker community
+- Early beta testers
+- Open source contributors
 
 ---
 
-**Made with ❤️ for Singapore's Hawker Culture**
-
-*QNom - Makan with Intelligence*
+Built with ❤️ for Singapore's food lovers
