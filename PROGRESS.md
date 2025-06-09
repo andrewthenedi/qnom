@@ -110,6 +110,13 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 - ✅ Data models for real-time queue tracking
 - ✅ Go-to-market strategy for Singapore launch
 
+### Development Setup
+- ✅ Next.js 14 with TypeScript configuration
+- ✅ Tailwind CSS with QNom brand colors
+- ✅ Jest testing framework with React Testing Library
+- ✅ UI component library (Button, Card)
+- ✅ Landing page with hero and features sections
+
 ### Infrastructure (In Progress)
 - [ ] Cloudflare Workers setup
 - [ ] Supabase database initialization
