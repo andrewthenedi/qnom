@@ -400,11 +400,11 @@ CREATE TABLE orders (
 ) PARTITION BY RANGE (created_at);
 
 -- Create monthly partitions
-CREATE TABLE orders_2024_01 PARTITION OF orders
-    FOR VALUES FROM ('2024-01-01') TO ('2024-02-01');
+CREATE TABLE orders_2025_06 PARTITION OF orders
+    FOR VALUES FROM ('2025-06-01') TO ('2025-07-01');
     
-CREATE TABLE orders_2024_02 PARTITION OF orders
-    FOR VALUES FROM ('2024-02-01') TO ('2024-03-01');
+CREATE TABLE orders_2025_07 PARTITION OF orders
+    FOR VALUES FROM ('2025-07-01') TO ('2025-08-01');
 
 -- Automated partition management
 CREATE OR REPLACE FUNCTION create_monthly_partition()
@@ -1001,7 +1001,7 @@ class GradualScaler {
 
 ```
 Current: Monolithic → Modular → Microservices → Serverless → Edge
-         2024       2025        2026           2027        2028
+         2025       2026        2027           2028        2029
 ```
 
 ### Scaling Roadmap
