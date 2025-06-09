@@ -1006,14 +1006,14 @@ Current: Monolithic → Modular → Microservices → Serverless → Edge
 
 ### Scaling Roadmap
 
-1. **Q1 2024**: Implement auto-scaling
-2. **Q2 2024**: Add read replicas
-3. **Q3 2024**: Implement caching layer
-4. **Q4 2024**: Multi-region deployment
-5. **Q1 2025**: Microservices migration
-6. **Q2 2025**: Event-driven architecture
-7. **Q3 2025**: Global edge deployment
-8. **Q4 2025**: AI-powered optimization
+1. **Q3 2025**: Implement auto-scaling
+2. **Q4 2025**: Add read replicas
+3. **Q1 2026**: Implement caching layer
+4. **Q2 2026**: Multi-region deployment
+5. **Q3 2026**: Microservices migration
+6. **Q4 2026**: Event-driven architecture
+7. **Q1 2027**: Global edge deployment
+8. **Q2 2027**: AI-powered optimization
 
 ## Resources
 

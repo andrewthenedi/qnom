@@ -291,7 +291,7 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 ## Quick Stats Dashboard
 
 ```
-🎯 Target Launch: March 2024 (8 weeks)
+🎯 Target Launch: August 2025 (8 weeks)
 👥 Target Users: 50,000 (Year 1)
 🏪 Target Partners: 1,000 (Year 1)
 💰 Target Revenue: S$515,000 (Year 1)

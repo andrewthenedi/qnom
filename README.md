@@ -99,7 +99,7 @@ npx wrangler pages publish out
 ## 📊 Project Status
 
 - **Current Phase**: MVP Development
-- **Target Launch**: March 2024
+- **Target Launch**: August 2025
 - **Progress**: See [PROGRESS.md](./PROGRESS.md)
 
 ## 🤝 Contributing
