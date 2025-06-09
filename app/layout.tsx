@@ -95,7 +95,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="mt-8 border-t pt-8 text-center text-sm text-gray-600">
-              <p>&copy; 2024 QNom. Made with ❤️ for Singapore.</p>
+              <p>&copy; 2025 QNom. Made with ❤️ for Singapore.</p>
             </div>
           </div>
         </footer>

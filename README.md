@@ -115,20 +115,20 @@ We welcome contributions! Please see our [Contributing Guidelines](./docs/develo
 
 ## 🎯 Roadmap
 
-### Phase 1: MVP (Q1 2024)
+### Phase 1: MVP (Q3 2025)
 - [x] Technical architecture design
 - [x] Business model validation
 - [ ] Core queue tracking system
 - [ ] Basic mobile interface
 - [ ] 10 pilot partners
 
-### Phase 2: Growth (Q2 2024)
+### Phase 2: Growth (Q4 2025)
 - [ ] 100 partner restaurants
 - [ ] 10,000 active users
 - [ ] Premium features
 - [ ] B2B analytics
 
-### Phase 3: Scale (Q3-Q4 2024)
+### Phase 3: Scale (Q1-Q2 2026)
 - [ ] 1,000 partners
 - [ ] 50,000 users
 - [ ] Regional expansion

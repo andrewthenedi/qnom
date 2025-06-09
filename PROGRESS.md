@@ -7,9 +7,9 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 ## Project Status
 
 **Current Phase**: Pre-Launch Foundation  
-**Start Date**: January 2024  
-**Last Updated**: January 2024  
-**Target Launch**: March 2024 (8 weeks)
+**Start Date**: June 2025  
+**Last Updated**: June 9, 2025  
+**Target Launch**: August 2025 (8 weeks)
 
 ## Milestones
 
@@ -87,8 +87,8 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 
 ## Current Sprint
 
-**Sprint**: Pre-Launch Week 4  
-**Duration**: January 22-28, 2024  
+**Sprint**: Pre-Launch Week 1  
+**Duration**: June 9-15, 2025  
 **Goal**: Complete technical architecture and secure first partners
 
 ### Tasks
@@ -197,13 +197,13 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 3. Create basic Next.js application
 4. Implement authentication flow
 
-### Next Month (February 2024)
+### Next Month (July 2025)
 1. Complete MVP core features
 2. Onboard 10 pilot partners
 3. Internal testing with 50 users
 4. Refine queue tracking accuracy
 
-### Next Quarter (Q1 2024)
+### Next Quarter (Q3 2025)
 1. Public launch with 100 partners
 2. Achieve 10,000 active users
 3. Launch premium partner features
@@ -211,7 +211,7 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 
 ## Changelog
 
-### January 2024
+### June 2025
 - Completed comprehensive market analysis
 - Designed zero-cost infrastructure architecture
 - Created detailed business model and projections

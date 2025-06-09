@@ -14,7 +14,7 @@ The Singapore F&B market presents a S$20.7 billion opportunity with unique chall
 ### Market Size
 
 #### Total Addressable Market (TAM)
-- **Singapore F&B Market**: S$20.7 billion (2024)
+- **Singapore F&B Market**: S$20.7 billion (2025)
 - **Digital F&B Services**: S$2.3 billion
 - **Growth Rate**: 8.5% CAGR
 - **Projected Size**: S$31.2 billion (2029)
