@@ -28,6 +28,8 @@ This document tracks the progress of QNom - Singapore's zero-cost F&B discovery 
 
 ### Phase 1: MVP Development (Weeks 1-8)
 - [ ] Week 1-2: Core Infrastructure
+  - [x] Set up Next.js with TypeScript
+  - [x] Configure testing framework
   - [ ] Set up Cloudflare Workers
   - [ ] Configure Supabase database
   - [ ] Implement authentication
